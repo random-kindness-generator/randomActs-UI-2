@@ -1,0 +1,19 @@
+article {
+    padding: 2em;
+    width: auto;
+    justify-content: center;
+    /* background: #f7f3eb; */
+}
+
+.article1 {
+    border-bottom: 2px;
+    margin: 0% 2%;
+    /* width: auto; */
+    padding: 8% 24% 0;
+    text-align: center;
+}
+
+.article1 img {
+    width: 100%;
+    border-radius: 50%;
+}

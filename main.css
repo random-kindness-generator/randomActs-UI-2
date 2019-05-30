@@ -1,0 +1,284 @@
+.container home {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin: 0%;
+    height: auto;
+    width: 80%;
+    font-family: 'Crimson Text', serif;
+}
+
+.nav_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: .5em 0 .5em 0;
+    overflow: hidden;
+    background: rgba(243, 210, 121, 0.973);
+    opacity: 1;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 1rem;
+}
+
+/* ---------------- */
+
+#banner {
+    padding: 8em 0 6em 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://images.pexels.com/photos/5390/sunset-hands-love-woman.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-position: center;
+    background-size: cover;
+    height: 23rem;
+    position: relative;
+    text-align: center;
+}
+
+/* gives tint to image */
+
+#banner:before {
+    transition-delay: 1.25s;
+    content: '';
+    display: block;
+    background-color: #000;
+    height: 100%;
+    opacity: 0.65;
+    position: absolute;
+    width: 100%;
+}
+
+/* text inside of banner */
+
+#banner .imgText {
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+
+#banner h1 {
+    font-size: 3.4em;
+    margin-top: 2.5em;
+    color: #FFF;
+}
+
+#banner p {
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    color: white;
+    font-size: 1.75em;
+}
+
+.get-started-btn {
+    border: 2px solid #7FC3CD;
+    background-color: #7FC3CD;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    font: 400 12px "AvenirNext", sans-serif;
+    border-radius: 20px;
+    padding: 1em 5em;
+    cursor: default;
+}
+
+/* ---------footer */
+
+#footer .copyright {
+    color: #c2810a;
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-align: center;
+}
+
+#footer .icons {
+    color: #c2810a;
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ----------- */
+
+article {
+    padding: 2em;
+    width: auto;
+    justify-content: center;
+    /* background: #f7f3eb; */
+}
+
+.article1 {
+    border-bottom: 2px;
+    margin: 0% 2%;
+    /* width: auto; */
+    padding: 8% 24% 0;
+    text-align: center;
+}
+
+.article1 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* -----Signup page */
+
+body {
+    font-family: "Roboto";
+    font-size: 14px;
+    background-size: 200% 100% !important;
+    -webkit-animation: move 10s ease infinite;
+    animation: move 10s ease infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    background: linear-gradient(45deg, rgb(212, 203, 73) 10%, #A2C7E5 90%);
+    height: 100vh;
+}
+
+.user {
+    width: 90%;
+    max-width: 340px;
+    margin: 10vh auto;
+}
+
+.user__header {
+    text-align: center;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 500px, 0);
+    transform: translate3d(0, 500px, 0);
+    -webkit-animation: arrive 500ms ease-in-out 0.7s forwards;
+    animation: arrive 500ms ease-in-out 0.7s forwards;
+}
+
+.user__title {
+    font-size: 14px;
+    margin-bottom: -10px;
+    font-weight: 500;
+    color: white;
+}
+
+.form {
+    margin-top: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+    animation: arrive 500ms ease-in-out 0.9s forwards;
+}
+
+.form--no {
+    animation: NO 1s ease-in-out;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: "Roboto";
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    transition: 0.3s;
+}
+
+.form__input:focus {
+    background: #f1dda6;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: "Roboto";
+    -webkit-appearance: none;
+    outline: 0;
+    border: 1px solid grey;
+    color: white;
+    background: rgb(204, 165, 57);
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #a09486;
+}
+
+@-webkit-keyframes NO {
+    from, to {
+        transform: translate3d(0, 0, 0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translate3d(-10px, 0, 0);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+@keyframes NO {
+    from, to {
+        transform: translate3d(0, 0, 0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translate3d(-10px, 0, 0);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+@-webkit-keyframes arrive {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 50px, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes arrive {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 50px, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

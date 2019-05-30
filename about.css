@@ -1,0 +1,174 @@
+* {
+    /* background-color: rgb(175, 240, 245);
+    background-image: url("images/art-background-blocks-810036.jpg");
+    background-color: black; */
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 14px;
+    background-size: 200% 100% !important;
+    -webkit-animation: move 10s ease infinite;
+    animation: move 10s ease infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    background: linear-gradient(45deg, rgb(212, 203, 73) 10%, #A2C7E5 90%);
+    height: 100vh;
+    /* background-color: #edcde2; */
+}
+
+div .homeMain a {
+    text-decoration: none;
+    border: 1px solid#7FC3CD;
+    font-size: 1.5em;
+    background-color: #7FC3CD;
+    border-radius: 80%;
+    width: 70px;
+    color: rgb(255, 254, 254);
+}
+
+#slogan {
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+
+/* -----------------------------------------    body body */
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #7FC3CD;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    /* width: 30%;
+    height: 20%;
+    justify-content: center */
+}
+
+/* body photos*/
+
+.flexin {
+    /* height: 60px; */
+    object-fit: cover;
+    justify-content: center;
+    display: flex;
+    padding: 3em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 195px;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 5px 3px 5px #a9a9a9;
+}
+
+hr.pr {
+    border-color: #a9a9a9;
+    width: 100%;
+    border-width: .5px;
+}
+
+.profile-photo-container {
+    padding: 20px 8px 0px;
+}
+
+.name {
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}
+
+img.about-img1 {
+    height: 90px;
+    object-fit: cover;
+    /* border-radius: 50px; */
+}
+
+article {
+    padding: 2em;
+    width: auto;
+    justify-content: center;
+    /* background: #f7f3eb; */
+}
+
+.person1 {
+    /* border-bottom: 2px; */
+    /* margin: 0% 2%; */
+    /* width: auto; */
+    /* padding: 8% 24% 0; */
+    text-align: center;
+}
+
+.person1 img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* ---------footer */
+
+#footer .copyright {
+    color: #c2810a;
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-align: center;
+}
+
+#footer .icons {
+    color: #c2810a;
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 6em;
+}
+
+#heart {
+    width: 10%;
+    padding: 2em 0em 0em;
+}
