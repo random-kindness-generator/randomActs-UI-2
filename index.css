@@ -13,16 +13,26 @@
     }
     .profile {
         margin-bottom: 30px;
-}
-
-;
-@media (max-width: 800px) {}
-
-;
-@media (max-width: 1000px) {
-    .article1 img {
-        width: 50%;
-        border-radius: 70%;
     }
-};
-
+    ;
+    @media (max-width: 800px) {
+        .flexin {
+            /* height: 60px; */
+            object-fit: cover;
+            justify-content: center;
+            display: flex;
+            /* padding: -3em 0em 0em 0em; */
+            justify-content: space-around;
+            flex-wrap: wrap;
+            color: black;
+            /* padding: 70px; */
+        }
+    }
+    ;
+    @media (max-width: 1000px) {
+        .article1 img {
+            width: 50%;
+            border-radius: 70%;
+        }
+    }
+    ;

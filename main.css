@@ -52,7 +52,7 @@ a {
     display: block;
     background-color: #000;
     height: 100%;
-    opacity: 0.65;
+    opacity: 0.35;
     position: absolute;
     width: 100%;
 }
@@ -122,6 +122,17 @@ article {
     width: 60%;
 }
 
+#girl:before {
+    /* transition-delay: 1.25s;
+    content: '';
+    display: block; */
+    background-color: #000;
+    /* height: 100%; */
+    opacity: 0.35;
+    position: absolute;
+    /* width: 100%; */
+}
+
 .article1 {
     border-bottom: 2px;
     margin: 0% 2%;
@@ -148,6 +159,8 @@ body {
     transform: translate3d(0, 0, 0);
     /* background: linear-gradient(45deg, rgb(212, 203, 73) 10%, #A2C7E5 90%); */
     background: linear-gradient(45deg, rgb(223, 213, 83) 10%, rgb(107, 86, 27)90%);
+    /* background: linear-gradient(45deg, #CAE4DB, rgb(107, 86, 27)90%); */
+    /* background: #CAE4DB; */
     height: 100vh;
 }
 
@@ -300,6 +313,7 @@ body {
     /* background: rgb(204, 165, 57); */
     /* background: rgb(107, 86, 27); */
     background: linear-gradient(45deg, rgb(212, 203, 73) 10%, rgb(107, 86, 27)90%);
+    /* background: linear-gradient(45deg, #CAE4DB 10%, #7A9D96 90%); */
     font-family: 'Crimson Text', serif;
     font-size: .6rem;
 }
@@ -319,6 +333,10 @@ body {
     font-size: 35px;
 }
 
+.simple {
+    flex: none;
+}
+
 /* body photos*/
 
 .flexin {
@@ -326,11 +344,15 @@ body {
     object-fit: cover;
     justify-content: center;
     display: flex;
-    /* padding: 3em 0em 0em 0em; */
+    /* padding: -3em 0em 0em 0em; */
     justify-content: space-around;
     flex-wrap: wrap;
     color: black;
 }
+
+/* profile-photo-container.rewards {
+    padding: 2%;
+} */
 
 /* .material-icons.black600 {
     color: black;
